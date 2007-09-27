@@ -1,16 +1,18 @@
 "------------------------------------------------------------------------------
 "  Description: Filetype plugin file for Btm
 "     Language: BTM (Batch to Memory - 4NT, TakeCommand Script)
-"          $Id: btm.vim 30 2007-09-26 09:42:07Z krischik@users.sourceforge.net $
+"          $Id: btm.vim 35 2007-09-26 10:37:15Z krischik@users.sourceforge.net $
 "    Copyright: Copyright (C) 2007 Martin Krischik
 "   Maintainer: Martin Krischik <krischik@users.sourceforge.net>
 "               Bram Moolenaar <Bram@vim.org>
+"               Bill McCarthy <WJMc@pobox.com>
 "      $Author: krischik@users.sourceforge.net $
-"        $Date: 2007-09-26 11:42:07 +0200 (Mi, 26 Sep 2007) $
-"      Version: 1.0
-"    $Revision: 30 $
-"     $HeadURL: https://vim-scripts.googlecode.com/svn/trunk/4NT%20Bundle/ftplugin/btm.vim $
-"      History: 22.11.2007 MK A new Btm Filetype Bundle
+"        $Date: 2007-09-26 12:37:15 +0200 (Mi, 26 Sep 2007) $
+"      Version: 1.1
+"    $Revision: 35 $
+"     $HeadURL: https://vim-scripts.googlecode.com/svn/trunk/2029%204NT%20Bundle/ftplugin/btm.vim $
+"      History: 22.11.2007 MK  A new Btm Filetype Bundle
+"               27.09.2007 BMC Matchit setup
 "    Help Page: ft-btm-plugin
 "------------------------------------------------------------------------------
 " btm filetype plugin file
@@ -39,6 +41,15 @@ setlocal comments=b:rem,b:@rem,b:REM,b:@REM,b:::
 if has("gui_win32") && !exists("b:browsefilter")
   let b:browsefilter = "DOS Batch Files (*.bat, *.btm, *.cmd)\t*.bat;*.btm;*.cmd\nAll Files (*.*)\t*.*\n"
 endif
+
+" Section: Matchit {{{1
+"
+let b:match_words
+    \= '\<iff\>:\<elseiff\>:\<else\>:\<endiff\>,'
+    \. '\<do\>:\<iterate\>:\<leave\>:\<enddo\>,'
+    \. '^\:\a\+:\<return\>,'
+    \. '\%(^\s*\)\@<=text\s*$:\%(^\s*\)\@<=endtext\s*$,'
+    \. '\<switch\>:\<case\>:\<default\>:\<endswitch\>'
 
 " Section: Tagging {{{1
 "

@@ -1,15 +1,15 @@
 "------------------------------------------------------------------------------
 "  Description: Vim syntax file for Btm
 "     Language: BTM (Batch to Memory - 4NT, TakeCommand Script)
-"          $Id: btm.vim 30 2007-09-26 09:42:07Z krischik@users.sourceforge.net $
+"          $Id: btm.vim 35 2007-09-26 10:37:15Z krischik@users.sourceforge.net $
 "    Copyright: Copyright (C) 2007 Martin Krischik
 "   Maintainer: Martin Krischik <krischik@users.sourceforge.net>
 "               John Leo Spetz <jls11@po.cwru.edu>
 "      $Author: krischik@users.sourceforge.net $
-"        $Date: 2007-09-26 11:42:07 +0200 (Mi, 26 Sep 2007) $
-"      Version: 1.0
-"    $Revision: 30 $
-"     $HeadURL: https://vim-scripts.googlecode.com/svn/trunk/4NT%20Bundle/syntax/btm.vim $
+"        $Date: 2007-09-26 12:37:15 +0200 (Mi, 26 Sep 2007) $
+"      Version: 1.1
+"    $Revision: 35 $
+"     $HeadURL: https://vim-scripts.googlecode.com/svn/trunk/2029%204NT%20Bundle/syntax/btm.vim $
 "      History: 22.11.2007 MK A new Btm Filetype Bundle
 "    Help Page: ft-btm-plugin
 "------------------------------------------------------------------------------
@@ -147,8 +147,8 @@ highlight def link btmCmdDivider        Special
 highlight def link btmConditional       Conditional
 highlight def link btmDotBoolOp         Operator
 highlight def link btmRepeat            Repeat
-highlight def link btmEchoCommand       btmStatement
-highlight def link btmEchoParam         btmStatement
+highlight def link btmEchoCommand       Keyword
+highlight def link btmEchoParam         Keyword
 highlight def link btmStatement         Statement
 highlight def link btmTodo              Todo
 highlight def link btmString            String
