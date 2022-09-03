@@ -1,18 +1,14 @@
 "------------------------------------------------------------------------------
 "  Description: Filetype plugin file for Btm
 "     Language: BTM (Batch to Memory - 4NT, TakeCommand Script)
-"          $Id: btm.vim 35 2007-09-26 10:37:15Z krischik@users.sourceforge.net $
-"    Copyright: Copyright (C) 2007 Martin Krischik
+"    Copyright: Copyright (C) 2007 … 2022 Martin Krischik
 "   Maintainer: Martin Krischik <krischik@users.sourceforge.net>
 "               Bram Moolenaar <Bram@vim.org>
 "               Bill McCarthy <WJMc@pobox.com>
-"      $Author: krischik@users.sourceforge.net $
-"        $Date: 2007-09-26 12:37:15 +0200 (Mi, 26 Sep 2007) $
 "      Version: 1.1
-"    $Revision: 35 $
-"     $HeadURL: https://vim-scripts.googlecode.com/svn/trunk/2029%204NT%20Bundle/ftplugin/btm.vim $
 "      History: 22.11.2007 MK  A new Btm Filetype Bundle
 "               27.09.2007 BMC Matchit setup
+"               03.09.2022 MK Change to GitHub devivery.
 "    Help Page: ft-btm-plugin
 "------------------------------------------------------------------------------
 " btm filetype plugin file
@@ -53,7 +49,7 @@ let b:match_words
 
 " Section: Tagging {{{1
 "
-setlocal iskeyword+=-
+setlocal iskeyword=@,48-57,_,192-255,-,\\,/,.
 
 " Section: Completion {{{1
 "
