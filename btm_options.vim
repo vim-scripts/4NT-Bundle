@@ -1,16 +1,13 @@
 "------------------------------------------------------------------------------
 "  Description: Options setable by the Btm bundle
 "     Language: BTM (Batch to Memory - 4NT, TakeCommand Script)
-"          $Id: btm_options.vim 37 2007-09-26 10:54:37Z krischik@users.sourceforge.net $
-"    Copyright: Copyright (C) 2007 Martin Krischik
+"    Copyright: Copyright (C) 2007 … 2022 Martin Krischik
 "   Maintainer: Martin Krischik
 "               John Leo Spetz <jls11@po.cwru.edu>
-"      $Author: krischik@users.sourceforge.net $
-"        $Date: 2007-09-26 12:54:37 +0200 (Mi, 26 Sep 2007) $
-"      Version: 1.1
-"    $Revision: 37 $
-"     $HeadURL: https://vim-scripts.googlecode.com/svn/trunk/2029%204NT%20Bundle/btm_options.vim $
+"      Version: 2.0
 "      History: 22.11.2007 MK A new Btm Filetype Bundle
+"               03.09.2022 MK Change to GitHub devivery.
+"               03.09.2022 MK Release Version 2.0 
 "        Usage: copy content into your .vimrc and change options to your
 "               likeing.
 "    Help Page: ft_btm.txt
@@ -59,6 +56,7 @@ svn copy -m "Tag Version 1.1 of BTM Bundle" 'https://vim-scripts.googlecode.com/
 svn copy -m "Tag Version 1.1 of BTM Bundle" https://vim-scripts.googlecode.com/svn/trunk/2029%%204NT%%20Bundle https://vim-scripts.googlecode.com/svn/tags/2029%%204NT%%20Bundle%%201.1
 
 " }}}1
+
 
 "------------------------------------------------------------------------------
 "   Copyright (C) 2007  Martin Krischik
