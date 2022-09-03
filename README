@@ -1,8 +1,7 @@
-This is a mirror of http://www.vim.org/scripts/script.php?script_id=2029
+This is a main release of http://www.vim.org/scripts/script.php?script_id=2029
 
-Updates both the file type and syntax plug-in for btm (Batch to Memory - 4NT, TakeCommand Script) file type Bundle. Includes simple user and omni completion.
+Updates both the file type and syntax plug-in for btm (Batch to Memory - 4NT, TakeCommand Script)
+file type Bundle. Includes simple user and omni completion.
 
-Reports errors to: http://code.google.com/p/vim-scripts/issues/list
-Discuss improvements on: http://groups.google.com/group/vim_scripts
-
-http://code.google.com/p/vim-scripts/wiki/4NTBundle
+Reports errors to: https://github.com/krischik/4NT-Bundle/discussions
+Discuss improvements on: https://github.com/krischik/4NT-Bundle/discussions

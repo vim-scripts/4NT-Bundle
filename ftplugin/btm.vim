@@ -5,10 +5,11 @@
 "   Maintainer: Martin Krischik <krischik@users.sourceforge.net>
 "               Bram Moolenaar <Bram@vim.org>
 "               Bill McCarthy <WJMc@pobox.com>
-"      Version: 1.1
+"      Version: 2.0
 "      History: 22.11.2007 MK  A new Btm Filetype Bundle
 "               27.09.2007 BMC Matchit setup
 "               03.09.2022 MK Change to GitHub devivery.
+"               03.09.2022 MK Release Version 2.0 
 "    Help Page: ft-btm-plugin
 "------------------------------------------------------------------------------
 " btm filetype plugin file
