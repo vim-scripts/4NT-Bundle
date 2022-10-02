@@ -1,0 +1,42 @@
+= 4NT Mode =
+
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2029
+
+== Description ==
+
+Updates both the file type and syntax plug-in for btm (Batch to Memory - 4NT, TakeCommand Script) file type Bundle. Includes simple user and omni completion.
+
+== Installation ==
+
+Install from https://github.com/krischik/vim-btm using dein (https://github.com/Shougo/dein.vim) or similar:
+
+{{code|lang=vim|
+call dein#begin('$HOME/vimfiles/bundles')
+call dein#add('krischik/vim-btm')
+call dein#end()
+call dein#install()
+}}
+
+== References ==
+
+{|
+|+ 4NT Mode
+|-
+| Vim-Script	|| https://www.vim.org/scripts/script.php?script_id=2029
+|-
+| Source	|| https://github.com/krischik/vim-btm
+|-
+| Wiki		|| https://github.com/krischik/vim-btm/wiki
+|-
+| Releases	|| https://github.com/krischik/vim-btm/releases
+|-
+| Issues	|| https://github.com/krischik/vim-btm/issues
+|-
+| Discussions	|| https://github.com/krischik/vim-btm/discussions
+|}
+
+==Comments==
+
+/* vim: set textwidth=0 wrap tabstop=8 shiftwidth=4 softtabstop=4 noexpandtab : */
+/* vim: set filetype=mediawiki fileencoding=utf8 fileformat=unix foldmethod=marker : */
+/* vim: set nospell spelllang=en_gb : */
