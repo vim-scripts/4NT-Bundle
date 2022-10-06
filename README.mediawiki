@@ -10,12 +10,10 @@ Updates both the file type and syntax plug-in for btm (Batch to Memory - 4NT, Ta
 
 Install from https://github.com/krischik/vim-btm using dein (https://github.com/Shougo/dein.vim) or similar:
 
-{{code|lang=vim|
-call dein#begin('$HOME/vimfiles/bundles')
-call dein#add('krischik/vim-btm')
-call dein#end()
-call dein#install()
-}}
+    call dein#begin('$HOME/vimfiles/bundles')
+    call dein#add('krischik/vim-btm')
+    call dein#end()
+    call dein#install()
 
 == References ==
 
